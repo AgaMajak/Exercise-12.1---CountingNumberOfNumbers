@@ -16,6 +16,7 @@ public class NumbersOperations {
             Integer value = scan.nextInt();
             listOfNumbers.add(value);
         }
+        scan.close();
         return listOfNumbers;
     }
 
